@@ -1,0 +1,20 @@
+int xx(){
+    int x = (a*b+c)*d;
+    return x;
+}
+void print(){
+
+}
+int main(){
+    int aa = 1;
+    double b;
+    for(int aa = 0;aa<3;aa++){
+        break;
+    }
+    while(aa<1)
+    {
+        aa++;
+        break;
+    }
+    return 0;
+}

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/fc_2023_spring/MiniCompiler/src/AST_tree.hpp
+iostream
+-
+vector
+-
+
+/mnt/d/fc_2023_spring/MiniCompiler/src/lexer.cpp
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+stdio.h
+-
+math.h
+-
+iostream
+-
+string.h
+-
+AST_tree.hpp
+/mnt/d/fc_2023_spring/MiniCompiler/src/AST_tree.hpp
+parse.hpp
+/mnt/d/fc_2023_spring/MiniCompiler/src/parse.hpp
+unistd.h
+-
+
+/mnt/d/fc_2023_spring/MiniCompiler/src/parse.hpp
+

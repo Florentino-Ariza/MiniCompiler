@@ -1,0 +1,3 @@
+/mnt/d/fc_2023_spring/MiniCompiler/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/fc_2023_spring/MiniCompiler/build/CMakeFiles/edit_cache.dir
+/mnt/d/fc_2023_spring/MiniCompiler/build/CMakeFiles/out.dir
