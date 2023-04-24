@@ -2,81 +2,83 @@
 #include<vector>
 
 class Node;
-class Program;
+    class Program;
 
-class Decl;
-class func_Decl;
-class var_Decl;
+    class Decl;
+        class func_Decl;
+        class var_Decl;
 
-class Stat;
-class expr_Stat;
-class if_Stat;
-class for_Stat;
-class while_Stat;
-class switch_Stat;
-class do_Stat;
-class continue_Stat;
-class break_Stat;
-class return_Stat;
-class var_decl_Stat;
-class stats_Stat;
-class Case;
+    class Stat;
+        class expr_Stat;
+        class if_Stat;
+        class for_Stat;
+        class while_Stat;
+        class switch_Stat;
+        class do_Stat;
+        class continue_Stat;
+        class break_Stat;
+        class return_Stat;
+        class var_decl_Stat;
+        class stats_Stat;
+        class Case;
 
-class Expr;
-class add_Expr;
-class addeq_Expr;
-class dadd_Expr;
-class sub_Expr;
-class subeq_Expr;
-class dsub_Expr;
-class mul_Expr;
-class muleq_Expr;
-class div_Expr;
-class diveq_Expr;
-class mod_Expr;
-class modeq_Expr;
-class and_Expr;
-class band_Expr;
-class bandeq_Expr;
-class or_Expr;
-class bor_Expr;
-class boreq_Expr;
-class xor_Expr;
-class bxor_Expr;
-class bxoreq_Expr;
-class bnot_Expr;
-class shl_Expr;
-class shleq_Expr;
-class shr_Expr;
-class shreq_Expr;
-class eq_Expr;
-class ge_Expr;
-class le_Expr;
-class lt_Expr;
-class gt_Expr;
-class neq_Expr;
-class not_Expr;
-class pos_Expr;
-class neg_Expr;
-class val_Expr;
+    class Expr;
+        class add_Expr;
+        class addeq_Expr;
+        class dadd_Expr;
+        class sub_Expr;
+        class subeq_Expr;
+        class dsub_Expr;
+        class mul_Expr;
+        class muleq_Expr;
+        class div_Expr;
+        class diveq_Expr;
+        class mod_Expr;
+        class modeq_Expr;
+        class and_Expr;
+        class band_Expr;
+        class bandeq_Expr;
+        class or_Expr;
+        class bor_Expr;
+        class boreq_Expr;
+        class xor_Expr;
+        class bxor_Expr;
+        class bxoreq_Expr;
+        class bnot_Expr;
+        class shl_Expr;
+        class shleq_Expr;
+        class shr_Expr;
+        class shreq_Expr;
+        class eq_Expr;
+        class ge_Expr;
+        class le_Expr;
+        class lt_Expr;
+        class gt_Expr;
+        class neq_Expr;
+        class not_Expr;
+        class pos_Expr;
+        class neg_Expr;
+        class val_Expr;
 
-class Var;
-class Val;
-class intVal;
-class doubleVal;
-class stringVal;
-class charVal;
-class boolVal;
-class Type;
+    class Var;
+
+    class Val;
+        class intVal;
+        class doubleVal;
+        class stringVal;
+        class charVal;
+        class boolVal;
+        
+    class Type;
 
 class Node
 {
-private:
-    /* data */
-public:
-    Node(){};
-    ~Node(){};
-    virtual void print()=0; 
+    private:
+        /* data */
+    public:
+        Node(){};
+        ~Node(){};
+        virtual void print()=0; 
 };
 
 class Program : public Node
